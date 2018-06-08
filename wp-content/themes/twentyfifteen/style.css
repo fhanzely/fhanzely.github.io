@@ -71,6 +71,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline;
 }
 
+p.small {
+    line-height: 0.7;
+}
+
 html {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -308,7 +312,7 @@ pre {
 	background-color: rgba(0, 0, 0, 0.01);
 	border: 1px solid #eaeaea;
 	border: 1px solid rgba(51, 51, 51, 0.1);
-	line-height: 1.2;
+	line-height: 1.6667;
 	margin-bottom: 1.6em;
 	max-width: 100%;
 	overflow: auto;
